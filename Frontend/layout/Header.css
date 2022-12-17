@@ -1,0 +1,47 @@
+.navBar{
+    /* Created with https://www.css-gradient.com */
+    /* background: rgb(122, 122, 254); */
+    padding: 0.3em;
+    padding-right: 1em;
+    
+}
+
+.navBarMid{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 2.2em;
+    /* margin:auto; */
+    padding: 0;
+    color: aliceblue;
+    font-weight: 900;
+    transition: all 1s ease-in;
+}
+
+nav h1:hover {
+    text-shadow: 0 0 6px #fff, 0 0 4px #005eff, 0 0 6px #005eff, 0 0 8px #005eff, 0 0 10px #005eff, 0 0 12px #005eff, 0 0 14px #005eff;
+    /* text-shadow: 0 0 6px #fff, 0 0 12px #ff4da6, 0 0 18px #ff4da6, 0 0 24px #ff4da6, 0 0 30px #ff4da6, 0 0 36px #ff4da6, 0 0 42px #ff4da6; */
+} 
+
+
+nav h3 {
+    margin: 0.4em 0 0.3em 0;
+    padding-left: 0.3em;
+    padding-right: 0.7em;
+    font-size: 1.7em;
+    color: white;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+nav h3:hover{
+    opacity: 1;
+}
+
+.music-gen-heading{
+    margin: auto;
+    font-size: 6em;
+    text-shadow: 0 0 10px #fff, 0 0 6px rgb(255, 0, 144), 0 0 10px rgb(255, 0, 144), 0 0 12px rgb(255, 0, 144), 0 0 15px rgb(255, 0, 144), 0 0 18px rgb(255, 0, 144), 0 0 20px rgb(255, 0, 144);
+}
